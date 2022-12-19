@@ -9,20 +9,17 @@
 /* Begin PBXBuildFile section */
 		0526EB4F29428132007463A3 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526EB4E29428132007463A3 /* ImageDataModel.swift */; };
 		0526EB5129428C0C007463A3 /* ImageNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0526EB5029428C0C007463A3 /* ImageNoteViewController.swift */; };
-		058E3398293A4EF500E25FDF /* UserDefaultSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058E3397293A4EF500E25FDF /* UserDefaultSystem.swift */; };
 		05CCA1C329390B3000FA4A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCA1C229390B3000FA4A3E /* AppDelegate.swift */; };
 		05CCA1C529390B3000FA4A3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCA1C429390B3000FA4A3E /* SceneDelegate.swift */; };
 		05CCA1C729390B3000FA4A3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCA1C629390B3000FA4A3E /* ViewController.swift */; };
 		05CCA1CA29390B3000FA4A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CCA1C829390B3000FA4A3E /* Main.storyboard */; };
 		05CCA1CC29390B3300FA4A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CCA1CB29390B3300FA4A3E /* Assets.xcassets */; };
 		05CCA1CF29390B3300FA4A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CCA1CD29390B3300FA4A3E /* LaunchScreen.storyboard */; };
-		05CCA1D72939126400FA4A3E /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CCA1D62939126400FA4A3E /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0526EB4E29428132007463A3 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
 		0526EB5029428C0C007463A3 /* ImageNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNoteViewController.swift; sourceTree = "<group>"; };
-		058E3397293A4EF500E25FDF /* UserDefaultSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultSystem.swift; sourceTree = "<group>"; };
 		05CCA1BF29390B3000FA4A3E /* NotesApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05CCA1C229390B3000FA4A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05CCA1C429390B3000FA4A3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +28,6 @@
 		05CCA1CB29390B3300FA4A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05CCA1CE29390B3300FA4A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05CCA1D029390B3300FA4A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05CCA1D62939126400FA4A3E /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +67,6 @@
 				05CCA1CB29390B3300FA4A3E /* Assets.xcassets */,
 				05CCA1CD29390B3300FA4A3E /* LaunchScreen.storyboard */,
 				05CCA1D029390B3300FA4A3E /* Info.plist */,
-				05CCA1D62939126400FA4A3E /* NoteViewController.swift */,
-				058E3397293A4EF500E25FDF /* UserDefaultSystem.swift */,
 				0526EB4E29428132007463A3 /* ImageDataModel.swift */,
 				0526EB5029428C0C007463A3 /* ImageNoteViewController.swift */,
 			);
@@ -150,9 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058E3398293A4EF500E25FDF /* UserDefaultSystem.swift in Sources */,
 				0526EB4F29428132007463A3 /* ImageDataModel.swift in Sources */,
-				05CCA1D72939126400FA4A3E /* NoteViewController.swift in Sources */,
 				05CCA1C729390B3000FA4A3E /* ViewController.swift in Sources */,
 				05CCA1C329390B3000FA4A3E /* AppDelegate.swift in Sources */,
 				0526EB5129428C0C007463A3 /* ImageNoteViewController.swift in Sources */,

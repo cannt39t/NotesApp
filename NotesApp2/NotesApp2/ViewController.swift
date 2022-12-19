@@ -115,3 +115,7 @@ extension ViewController: CreateNoteDelegate{
         tableView.reloadData()
     }
 }
+
+protocol CreateNoteDelegate: AnyObject {
+    func saveNote()
+}
