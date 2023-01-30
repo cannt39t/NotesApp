@@ -4,17 +4,20 @@
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Features](#features)
+- [Installation](#installation)
 - [Support](#support)
 
-## Installation
-
-1) git clone https://github.com/cannt39t/NotesApp.git
-
 ## Features
+- Добавляйте заметки с дополнительными фотографиями
+- Редактируйте и удаляйте существующие заметки
+- Измените фотографию для существующих заметок
+- Все данные хранятся UserDefaults
 
-Заметки, фото к заметкам, реадктирование, удаление, добавление
+## Installation
+1. Clone this repository
+2. Open the project in Xcode
+3. Build and run the project
 
 ## Support
 
